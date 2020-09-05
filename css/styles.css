@@ -9,10 +9,8 @@
     --background-color-button: #F5F4FA;
 }
 body {
-	background:var(--background-color-main);
+	background:var(--text-white-color);
 	color: var(--primery-text-color);
-    font-family: Roboto, sans-serif;`
-    letter-spacing: 0.02em;
     margin:0;
 
 }
@@ -46,19 +44,34 @@ text-decoration: none;
 
 /* logo */
 .logo {
+    width: 145px;
+  
 	color: var(--title-text-color);
-	text-decoration: none;
-    font-family: Raleway;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: var(--background-color);
+    font-family: "Raleway", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    margin-top: 0;
-    margin-bottom: 0;
+    line-height: 1.19;
+    text-decoration: none;
 }
+
+
+
+
+
 .logo-style {
-	color: var(--accent-color);
+    color: var(--accent-color);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: var(--black);
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 /*Site nav*/
 
@@ -80,6 +93,7 @@ margin-right: 50px;
 
 
 .site-nav .link {
+    background-color: violet;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -295,6 +309,7 @@ margin-right: 0;
 
 }
 .section-team {
+    background-color: var(--background-color-button);
     color: var(--primery-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -307,7 +322,7 @@ margin-right: 0;
 
 /* footer */
 
-.footer-info {
+.footer {
     background-color: var(--background-color);  
     padding-top: 60px;
     padding-bottom: 60px;
@@ -355,14 +370,11 @@ margin-right: 0;
 .body {
     color: var(--title-text-color);
     background-color: var(--background-color-main);
-
 }
 
+   /*Buttons  */
 
-.button-container {
-   
-    
-}
+
 .button-list {
     display: flex;
     color: var(--title-text-color);
@@ -408,7 +420,7 @@ color: var(--title-text-color);
 .button-list :focus,
 .button-list :hover {
     
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: var(--text-white-color);
     background-color: var(--accent-color);
     
@@ -462,6 +474,7 @@ color: var(--title-text-color);
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+    border: 3px solid  tomato; 
   
 }
 
@@ -474,6 +487,7 @@ color: var(--title-text-color);
  
   
 
+ /* tESt */
  
 
  
